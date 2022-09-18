@@ -96,13 +96,11 @@ namespace SnowFlake
             {
                 timer.Start();
                 n++;
-                Console.WriteLine("Start");
             }
             else if (n == 1)
             {
                 timer.Stop();
-                n = 0; 
-                Console.WriteLine("Stop");
+                n = 0;           
             }
            
         }
