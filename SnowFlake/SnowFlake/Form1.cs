@@ -27,7 +27,7 @@ namespace SnowFlake
             snow = new Bitmap(Properties.Resources.Snow1);
             AddCreateSnow();
             timer = new Timer();
-            timer.Interval = 1;
+            timer.Interval = 10;
             timer.Tick += Timer_Tick;
 
         }
