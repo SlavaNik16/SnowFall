@@ -50,12 +50,9 @@ namespace SnowFlake
                 if (snowflake.Y > Screen.PrimaryScreen.WorkingArea.Height)
                 {
                     snowflake.Y = -snowflake.Severity;
-                }
-                if (snowflake.Y > 0)
-                {
-                    Draw();
-                }
+                }       
             }
+             Draw();
             timer.Start();
         } 
         private void Form1_Paint(object sender, PaintEventArgs e)
